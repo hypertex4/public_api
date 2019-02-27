@@ -31,7 +31,7 @@ $user = new User($db);
             "message" => "Username already exists!"
         );
     }
-    echo json_encode($user_arr);
+    return json_encode($user_arr);
 
 //}
 
